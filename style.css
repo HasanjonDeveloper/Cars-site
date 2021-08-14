@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css2?family=Marvel:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Marvel', sans-serif;
+  margin: 0;
+  height: 100vh;
+  border-radius: 20px;
+  display: flex !important; 
+  justify-content: center ;   align-items: center ;
+  color: #fff;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+    border-radius: 10px;
+    width: 800px;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+#sedans {
+    background: #E28525;
+    height: 400px;
+    padding: 40px;
+    text-align: left;
+    border-bottom-left-radius: 10px ;
+    border-top-left-radius: 10px ;
+    
+}
+
+#suvs {
+    background-color: #016972;
+    height: 400px;
+    padding: 40px;
+    text-align: left;
+    
+}
+
+
+#luxury {
+    background-color: #00403F;
+    height: 400px;
+    padding: 40px;
+    text-align: left;
+    border-radius: auto 10px 10px auto;
+    border-bottom-right-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+ 
+p {
+    color: #ddd;
+    height: 20px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #ddd;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    transition-duration: 1000ms;
+    position: relative;
+    top: 200px;
+    font-weight: 900;
+}
+
+#sedans-a:hover {
+    color: #E28525 ;
+    background-color: #ddd;
+    
+}
+
+#suvs-a:hover {
+    color: #016972 ;
+    background-color: #ddd;
+    
+}
+
+#luxury-a:hover {
+    color: #00403F ;
+    background-color: #ddd;
+    
+}
+
+@media (max-width: 700px){
+
+    .container {
+        display: block    ;
+        width: 415px;
+    }
+
+    p {
+
+        width: 300px;
+        font-size: 25px;
+    }
+
+    #sedans {
+        border-radius: 0;
+    }
+    #luxury {
+        border-radius: 0;
+    }
+
+
+    a {
+        position: relative;
+        top: 150px;
+    }
+}
